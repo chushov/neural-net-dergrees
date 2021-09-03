@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from tensorflow import keras
 from tensorflow.keras.layers import Dense
 
-c = np.array([-40, -10, 0, 8, 15, 22, 38])
-f = np.array([-40, 14, 32, 46, 59, 72, 100])
+c = np.array([-45, -13, 0, 9, 16, 23, 39])
+f = np.array([-42, 16, 34, 46, 62, 76, 121])
 
 model = keras.Sequential()
 model.add(Dense(units=1, input_shape=(1,), activation='linear'))

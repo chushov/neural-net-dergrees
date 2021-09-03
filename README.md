@@ -1,2 +1,6 @@
-# neural-net-dergrees
-simple tensorflow/keros neuralnetwork
+# Simple Neural Network
+
+pip install tensorflow
+pip install keras
+pip install numpy
+pip install matplotlib
